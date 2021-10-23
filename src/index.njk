@@ -1,0 +1,10 @@
+---
+title: "11ty x Bragdocs"
+layout: "layouts/base.njk"
+---
+
+{% for post in collections.posts | reverse %}}
+	<p>
+		{{ post.data.date }} - {{ post.data.title }}
+	</p>
+{% endfor %}
