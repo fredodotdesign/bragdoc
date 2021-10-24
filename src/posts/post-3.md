@@ -6,6 +6,7 @@ categories:
 - Development
 - Learning
 public: True
+icon: 👨🏻‍💻
 ---
 
 I learned the basics of Eleventy to roll my own bragdoc!

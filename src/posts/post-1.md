@@ -5,6 +5,7 @@ categories:
 - Career
 - Milestone
 public: True
+icon: 🔟
 ---
 
 Finally completed 10 years of service with Apple, Inc., since I was first hired in 2006.

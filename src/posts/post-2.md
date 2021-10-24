@@ -8,6 +8,7 @@ categories:
 - Development
 - Learning
 public: True
+icon: 👨🏻‍💻
 ---
 
 Completed a three-month program to learn front end and mobile development with Bootstrap, React, and React Native.
