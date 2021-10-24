@@ -1,19 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
      <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>11ty x Bragdocs</title>
-
-		<link rel="stylesheet" href="/css/styles.css">
-
+          <link rel="stylesheet" href="/bragdoc/css/styles.css">
      </head>
      <body>
-		<h1>11ty x Bragdocs</h1>
+          
+<div class="bragdoc__section" id="bragdoc__section">
+  <h1 class="bragdoc__header">11ty x Bragdocs</h1>
+  <div class="bragdoc__container">
+    <div class="bragdoc__profile">
+      <img class="bragdoc__photo" src="images/fa_profile.jpg">
+      <h1 class="bragdoc__name">Fredo Alvarez</h1>
+      <div class="role">Visual Designer</div>
+    </div>
+    
+      
+        <div class="bragdoc__entry">
+     <div class="bragdoc__entry-milestone"></div>
+     <div class="bragdoc__entry-block">
+          <span class="bragdoc__entry-date">
+               October 22nd 2021
+          </span>
+          <br/>
+          <h2 class="bragdoc__entry-title"><span class="bragdoc__icon"></span> Build Bragdoc with Eleventy</h2>
+          <div class="bragdoc__entry-content">
+               <p>I learned the basics of Eleventy to roll my own bragdoc!</p>
 
-		<img src="/images/test_image.jpg">
-		
-		<p>This is the home page.</p>
+          </div>
+     </div>
+     <div class="bragdoc__taglist">
+     
+          <span># Eleventy</span>
+     
+          <span># Development</span>
+     
+          <span># Learning</span>
+     
+     </div>
+</div>
+      
+    
+      
+        <div class="bragdoc__entry">
+     <div class="bragdoc__entry-milestone"></div>
+     <div class="bragdoc__entry-block">
+          <span class="bragdoc__entry-date">
+               September 20th 2021
+          </span>
+          <br/>
+          <h2 class="bragdoc__entry-title"><span class="bragdoc__icon"></span> Completed Front End Bootcamp</h2>
+          <div class="bragdoc__entry-content">
+               <p>Completed a three-month program to learn front end and mobile development with Bootstrap, React, and React Native.</p>
 
-	</body>
+          </div>
+     </div>
+     <div class="bragdoc__taglist">
+     
+          <span># React</span>
+     
+          <span># ReactNative</span>
+     
+          <span># Bootstrap</span>
+     
+          <span># Development</span>
+     
+          <span># Learning</span>
+     
+     </div>
+</div>
+      
+    
+      
+        <div class="bragdoc__entry">
+     <div class="bragdoc__entry-milestone"></div>
+     <div class="bragdoc__entry-block">
+          <span class="bragdoc__entry-date">
+               August 30th 2021
+          </span>
+          <br/>
+          <h2 class="bragdoc__entry-title"><span class="bragdoc__icon"></span> Ten with Apple</h2>
+          <div class="bragdoc__entry-content">
+               <p>Finally completed 10 years of service with Apple, Inc., since I was first hired in 2006.</p>
+
+          </div>
+     </div>
+     <div class="bragdoc__taglist">
+     
+          <span># Career</span>
+     
+          <span># Milestone</span>
+     
+     </div>
+</div>
+      
+    
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div>
+      <a target="_blank" href="https://www.bragdocs.com/">Bragdocs</a> inspired theme built with <a target="_blank" href="https://www.11th.dev/">11ty</a> as instructed by <a target="_blank" href="https://emilyyleung.github.io/">Emily Y Leung</a> for <a target="_blank" href="https://css-tricks.com/creating-your-own-bragdoc-with-eleventy/">CSS Tricks</a>
+    </div>
+    <div>
+      Constructed by <a target="_blank" href="https://www.fredo.design/">Fredo Alvarez</a>, &copy; 2021
+    </div>
+  </footer>
+</div>
+          <script>
+               // Making all external links open in new tabs Snippet by Mark Thomas Miller
+               (function () {
+                    const links = document.querySelectorAll("a[href^='https://'], a[href^='http://']")
+                    const host = window.location.hostname
+                    const isInternalLink = link => new URL(link).hostname === host
+                    links.forEach(link => {
+                         if (isInternalLink(link)) 
+                              return
+                         
+                         link.setAttribute("target", "_blank")
+                         link.setAttribute("rel", "noopener")
+                    })
+               })()
+          </script>
+     </body>
 </html>

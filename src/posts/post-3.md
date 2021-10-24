@@ -2,9 +2,9 @@
 title: Build Bragdoc with Eleventy
 date: 2021-10-23
 categories:
-	- Eleventy
-	- Development
-	- Learning
+- Eleventy
+- Development
+- Learning
 public: True
 ---
 

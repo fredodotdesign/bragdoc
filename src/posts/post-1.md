@@ -2,8 +2,8 @@
 title: Ten with Apple
 date: 2021-08-31
 categories:
-	- Career
-	- Milestone
+- Career
+- Milestone
 public: True
 ---
 

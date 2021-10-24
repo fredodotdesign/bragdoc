@@ -1,4 +1,8 @@
 module.exports = function(eleventyConfig) {
+
+	// Add filter
+	eleventyConfig.addFilter("dateDisplay", require("./src/_filters/dates.js") );
+
 	eleventyConfig.addWatchTarget("./src/css/")
 	eleventyConfig.addWatchTarget("./src/images/")
 	eleventyConfig.addPassthroughCopy("./src/css/")
@@ -9,6 +13,7 @@ module.exports = function(eleventyConfig) {
 			input: "src",
 			output: "public"
 		},
-		markdownTemplateEngine: "njk"
+		markdownTemplateEngine: "njk",
+		pathPrefix: "/bragdoc/"
 	}
 }

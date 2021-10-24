@@ -3,8 +3,27 @@ title: "11ty x Bragdocs"
 layout: "layouts/base.njk"
 ---
 
-{% for post in collections.posts | reverse %}}
-	<p>
-		{{ post.data.date }} - {{ post.data.title }}
-	</p>
-{% endfor %}
+<div class="bragdoc__section" id="bragdoc__section">
+  <h1 class="bragdoc__header">{{ title }}</h1>
+  <div class="bragdoc__container">
+    <div class="bragdoc__profile">
+      <img class="bragdoc__photo" src="{{ 'images/fa_profile.jpg' | url }}">
+      <h1 class="bragdoc__name">{{ data.myname }}</h1>
+      <div class="role">{{ data.myrole }}</div>
+    </div>
+    {% for post in collections.posts | reverse %}
+      {% if post.data.public %}
+        {% include 'partials/bragdoc-entry.njk' %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div>
+      <a target="_blank" href="https://www.bragdocs.com/">Bragdocs</a> inspired theme built with <a target="_blank" href="https://www.11th.dev/">11ty</a> as instructed by <a target="_blank" href="https://emilyyleung.github.io/">Emily Y Leung</a> for <a target="_blank" href="https://css-tricks.com/creating-your-own-bragdoc-with-eleventy/">CSS Tricks</a>
+    </div>
+    <div>
+      Constructed by <a target="_blank" href="{{ data.mywebsite }}">{{ data.myname }}</a>, &copy; 2021
+    </div>
+  </footer>
+</div>
