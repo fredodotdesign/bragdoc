@@ -2,11 +2,8 @@
 title: Completed Front End Bootcamp
 date: 2021-09-21
 categories:
-- React
-- ReactNative
-- Bootstrap
-- Development
-- Learning
+- Education
+- Coding
 public: True
 icon: 👨🏻‍💻
 ---
