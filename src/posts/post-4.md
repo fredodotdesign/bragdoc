@@ -8,4 +8,4 @@ public: True
 icon: 👨🏻‍💻
 ---
 
-Officially began working toward completing 100 consecutive days of code. 
+Officially began working toward completing 100 consecutive days of code!!
